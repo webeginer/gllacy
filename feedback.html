@@ -35,12 +35,12 @@
           </div>
           <div class="wrap-right">
             <div class="header-nav__search">
-              <form class="search-form" action="index.html" method="get">
+              <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
                 <div class="search-form__input">
-                  <input class="search-input" id="id-searchinput" type="search" placeholder="Что ищем?">
+                  <input class="search-input" name="search" id="id-searchinput" type="search" placeholder="Что ищем?">
                   <label class="label-field label-field--search" for="id-searchinput">Что ищем?</label>
                 </div>
-                <button class="search-form__button" type="submit" name="button">
+                <button class="search-form__button" type="submit">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
                     <path fill="#fff" d="M16.958 15.527L11.75 10.32A6.455 6.455 0 0 0 13 6.5 6.5 6.5 0 1 0 6.5 13a6.465 6.465 0 0 0 3.839-1.263l5.205 5.204 1.414-1.414zM6.5 11C4.019 11 2 8.981 2 6.5S4.019 2 6.5 2 11 4.019 11 6.5 8.981 11 6.5 11z" />
                   </svg>
@@ -60,14 +60,14 @@
                     </svg>
                     Вход
                   </a>
-                  <form class="login-form" action="index.html" method="post">
+                  <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
                     <p>
-                      <input class="login-form__login-input" id="id-loginemail" type="email" placeholder="Электронная почта">
-                      <label class="label-field label-field--loginemail" for="id-loginemail">Электронная почта</label>
+                      <input class="login-form__login-input" name="login-email" id="id-login-email" type="email" placeholder="Электронная почта">
+                      <label class="label-field label-field--login-email" for="id-login-email">Электронная почта</label>
                     </p>
                     <p>
-                      <input class="login-form__password-input" id="id-password" type="password" placeholder="Пароль">
-                      <label class="label-field label-field--loginpassword" for="id-password">Пароль</label>
+                      <input class="login-form__password-input" name="login-password" id="id-password" type="password" placeholder="Пароль">
+                      <label class="label-field label-field--login-password" for="id-password">Пароль</label>
                     </p>
                     <button class="button button--login" type="submit">Войти</button>
                     <p class="login-form__footer">
@@ -102,17 +102,17 @@
       <main class="modal modal-feedback modal-feedback--page">
         <h1 class="main-content visually-hidden">Форма обратной связи</h1>
         <p class="lead"><b>Мы обязательно вам ответим!</b></p>
-        <form class="modal-feedback__form" action="index.html" method="post">
+        <form class="modal-feedback__form" action="https://echo.htmlacademy.ru" method="post">
           <p>
-            <input class="user-name-input" id="id-name" type="text" placeholder="Как вас зовут?">
+            <input class="user-name-input" name="login" id="id-name" type="text" placeholder="Как вас зовут?">
             <label class="label-field label-field--feedback-name" for="id-name">Как вас зовут?</label>
           </p>
           <p>
-            <input class="email-input" id="id-feedback-email" type="email" placeholder="Ваша почта для ответа?">
+            <input class="email-input" name="email" id="id-feedback-email" type="email" placeholder="Ваша почта для ответа?">
             <label class="label-field label-field--feedback-email" for="id-feedback-email">Ваша почта для ответа?</label>
           </p>
           <p>
-            <textarea class="message-textarea" id="id-massage" name="message" placeholder="Напишите что-нибудь..."></textarea>
+            <textarea class="message-textarea" name="message" id="id-massage" name="message" placeholder="Напишите что-нибудь..."></textarea>
             <label class="label-field label-field--feedback-massage" for="id-massage">Напишите что-нибудь...</label>
           </p>
           <button class="button button--feedback" type="submit">Отправить</button>
