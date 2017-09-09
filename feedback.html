@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Форма обратной связи с магазином мороженого — «Глейси»</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -104,7 +104,7 @@
         <p class="lead"><b>Мы обязательно вам ответим!</b></p>
         <form class="modal-feedback__form" action="https://echo.htmlacademy.ru" method="post">
           <p>
-            <input class="user-name-input" name="login" id="id-name" type="text" placeholder="Как вас зовут?">
+            <input class="user-name-input" name="login" id="id-name" type="text" placeholder="Как вас зовут?" autofocus>
             <label class="label-field label-field--feedback-name" for="id-name">Как вас зовут?</label>
           </p>
           <p>
@@ -112,7 +112,7 @@
             <label class="label-field label-field--feedback-email" for="id-feedback-email">Ваша почта для ответа?</label>
           </p>
           <p>
-            <textarea class="message-textarea" name="message" id="id-massage" name="message" placeholder="Напишите что-нибудь..."></textarea>
+            <textarea class="message-textarea" name="message" id="id-massage" placeholder="Напишите что-нибудь..."></textarea>
             <label class="label-field label-field--feedback-massage" for="id-massage">Напишите что-нибудь...</label>
           </p>
           <button class="button button--feedback" type="submit">Отправить</button>
